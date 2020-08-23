@@ -1,0 +1,14 @@
+Khái niệm:
+- HTML Collection: tập hợp các phần tử HTML (HTML elements)
+- Nodelist: tập hợp các nodes trong văn bản
+
+Giống nhau:
+- Đều là tập hợp của các đối tượng
+- Có thuộc tính độ dài (length) chỉ số lượng phần tử chứa bên trong
+- Có thể truy cập đến phần tử đích dựa vào chỉ số (index: 0, 1, 2....)
+
+Khác nhau:
+- HTMLCollection còn cho phép truy cập đến phần tử dựa vào tên, id, bên cạnh theo chỉ số. Còn Nodelist chỉ cho phép truy cập qua chỉ số. 
+- Nhờ vậy, có thể đồng thời truy cập nhiều phần tử trong HTMLCollection, bằng cách sử dụng tagname hoặc className
+- Không như HTMLCollection, NodeList còn có thể chứa các nodes thuộc kiểu attribute hoặc text
+
